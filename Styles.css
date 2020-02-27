@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    overflow-y: hidden;
+}
+.container{
+    display: flex;
+}
+
+.box-1{
+    flex: 1;
+    height: 100vh;
+
+}
+
+.box-2{
+    flex: 1;
+    background: url('images/image1.png');
+    height: 100vh;
+
+}
+
+.content{
+margin: 35% 20%;
+}
+
+h1{
+    line-height: 3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+p{
+    line-height: 1.3;
+    font-family: 'Hind Madurai', sans-serif;
+    color: rgb(173, 170, 170);
+}
+
+button{
+    margin: 20px 10px 10px 0;
+   width: 100px;
+   height: 40px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 900;
+    border-radius: 5px;
+    border: black 1px solid;
+}
+
+.btn1{
+    color: white;
+    background-color: black;
+}
+.btn2{
+    color: black;
+    background-color: white;
+    
+}
+.navbar{
+    position: absolute;
+    padding: 20px;
+    left: 30%;
+}
+li{
+    display: inline;
+    margin: 20px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 14px;
+}
